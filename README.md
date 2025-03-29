@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GUET-AI-Hub/.github/main/profile/banner-datasets.png" alt="GUET AI 数据集平台" width="100%" />
+  <img src="DATASET.png" alt="GUET AI 数据集平台" width="100%" />
 </p>
 
 <p align="center">
