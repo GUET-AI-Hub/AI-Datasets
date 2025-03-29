@@ -6,6 +6,10 @@
   <strong>简体中文 🀄</strong> ｜ English 🌎（即将上线）
 </p>
 
+<p align="center">
+  👉 欢迎教师与学生上传共享数据集，共建 GUET-AI 数据生态！
+</p>
+
 ---
 
 ## 👋 欢迎访问 GUET-AI 数据集平台
@@ -23,13 +27,37 @@
 
 ---
 
+## 📥 上传方式
+
+欢迎通过以下方式上传您的数据集资源：
+
+- ✅ [点击填写数据集提交表单](https://github.com/GUET-AI-Hub/AI-Datasets/issues/new?template=create_dataset.yml)
+- ✅ Fork 本仓库 → 上传数据集文件夹 → 提交 Pull Request
+- ✅ 将数据打包上传至网盘并通过表单/邮箱提交链接，由平台协助上传
+
+📁 推荐目录结构如下：
+
+```
+Dataset_姓名_关键词
+├── README.md # 数据集说明
+├── data/ # 数据文件（可为 CSV、图像、文本等）
+├── LICENSE # 授权协议（建议使用 CC-BY）
+└── metafile.yml # 元信息文件（可选）
+```
+
+
+📘 不熟悉 Git 操作？  
+👉 [点击查看 Fork + PR 上传详细说明](https://github.com/GUET-AI-Hub/.github/blob/main/profile/help%20doc.md)
+
+---
+
 ## 📮 联系方式
 
 如您有任何建议或希望上传数据集资源，请联系平台管理员：
 
-- 管理员：王学敏
-- 邮箱：<wangxuemin@guet.edu.cn>  
-- GitHub主页：[GUET-AI-Hub](https://github.com/GUET-AI-Hub)
+- 👤 管理员：王学敏  
+- 📮 邮箱：<wangxuemin@guet.edu.cn>  
+- 🔗 GitHub主页：[GUET-AI-Hub](https://github.com/GUET-AI-Hub)
 
 ---
 
