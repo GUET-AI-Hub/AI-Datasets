@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="DATASET.png" alt="GUET AI 数据集平台" width="100%" />
+  <img src="DATASET.png" alt="GUET AI 数据集平台" width="70%" />
 </p>
 
 <p align="center">
