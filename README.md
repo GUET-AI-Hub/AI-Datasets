@@ -27,7 +27,7 @@
 
 如您有任何建议或希望上传数据集资源，请联系平台管理员：
 
-- 管理员：王学敏老师  
+- 管理员：王学敏
 - 邮箱：<wangxuemin@guet.edu.cn>  
 - GitHub主页：[GUET-AI-Hub](https://github.com/GUET-AI-Hub)
 
