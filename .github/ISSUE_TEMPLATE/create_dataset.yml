@@ -1,0 +1,68 @@
+name: 📦 提交数据集
+description: 提交一个新的 AI 数据集
+title: "[数据集] Dataset_<姓名>_<关键词>"
+labels: [dataset-submission]
+body:
+  - type: input
+    id: datasetName
+    attributes:
+      label: 📌 数据集名称
+      placeholder: 中文语音识别数据集
+    validations:
+      required: true
+
+  - type: input
+    id: contributor
+    attributes:
+      label: 👤 提供者
+      placeholder: 张三 / 实验室名称
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mediaType
+    attributes:
+      label: 🎨 数据类型
+      options:
+        - 图像
+        - 文本
+        - 音频
+        - 视频
+        - 表格
+        - 多模态
+    validations:
+      required: true
+
+  - type: dropdown
+    id: taskType
+    attributes:
+      label: 📌 任务类型
+      options:
+        - 图像分类
+        - 文本分类
+        - 语音识别
+        - 多标签标注
+        - 生成任务
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: intro
+    attributes:
+      label: 📘 数据集简介
+      placeholder: 数据来源、内容结构、数量规模、用途等
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: 📜 授权协议（如 MIT, CC-BY）
+      placeholder: MIT / CC-BY-4.0 / 其他
+
+  - type: input
+    id: uploadWay
+    attributes:
+      label: 📤 上传方式
+      placeholder: GitHub 上传 / 邮件发送 / 需要协助上传
